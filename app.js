@@ -73,6 +73,8 @@ app.get('/',(req,res)=>{
     res.render("index",{result,result2,result3});
 });
 
+//Tarea hacer dos funciones diferentes un de calculo - text 
+
 app.listen(port,()=>{
     console.log("Servidor escuchando en el puerto http://localhost:"+port);
 });
